@@ -1,0 +1,12 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./main.css -o ./output.css",
+    "watch": "tailwindcss -i ./main.css -o ./output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
+}
